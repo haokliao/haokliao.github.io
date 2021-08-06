@@ -23,21 +23,22 @@
 
 	/* Create three unequal columns that sits next to each other */
 	.column {
-	padding: 10px;
+	padding: 100px;
 	}
 
 	/* Left and right column */
 	.column.side {
 	-webkit-flex: 1;
 	-ms-flex: 1;
-	flex: 1;
+	flex: .25;
 	}
 
 	/* Middle column */
 	.column.middle {
 	-webkit-flex: 2;
 	-ms-flex: 2;
-	flex: 2;
+	flex: 4;
+	/* justify-content: center; */
 	}
 
 	.blurb{
@@ -60,25 +61,25 @@
 	<h1>HKL</h1>
 </header>
 
-
-<!-- <body>
-	<nav>
-   		<ul>
-       		<li><a href="/">Home</a></li>
-        	<li><a href="/about">About</a></li>
-       		<li><a href="/cv">Resume</a></li>
-       		<li><a href="/blog">Blog</a></li>
-   		</ul>
-	</nav> -->
-
+<!-- Flex blocks-->
 	<div class="row">
-		<div class="column side" style="background-color:#aaa;">1</div>
-		<div class="column middle" style="background-color:#bbb;">
+		<div class="column side" style="background-color:rgb(216, 216, 216);">1</div>
+	<!-- Middle Flex -->
+
+		<div class="column middle" style="background: color #fffcf9;">
 			<p>Hi ! I’m Hao Kai (Kevin) Liao, a Data Analytics student based in New York, passionate about data visualization.</p>
-			<p>I’m currently studying at @Baruch College and graduated @ The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
-			<p>In my free time,  I love baking bread and feeding guests, creating playlists for friends, and bouldering  </p>
+			<p>I’m currently studying at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
+			<p>In my free time, I love baking bread and feeding guests, creating playlists for friends, and bouldering  </p>
+		
+			<ul>
+				<li><a href="mailto:haokliao@gmail.com">email</a></li>
+				<li><a href="https://www.linkedin.com/in/haokliao/">https://www.linkedin.com/in/haokliao/</a></li>
+				<li><a href="https://github.com/haokliao">github.com/haokliao</a></li>
+				<li><a href="https://www.instagram.com/keviain/">https://www.instagram.com/keviain/</a></li>
+		 	</ul>
 		</div>
-		<div class="column side" style="background-color:#ccc;">3</div>
+
+		<div class="column side" style="background-color:rgb(216, 216, 216);">3</div>
 	  </div>
 
 <!-- Blurb -->
@@ -90,7 +91,7 @@
 		</div><!-- /.blurb -->
 	</div><!-- /.container -->
 
-<!-- Footer -->
+<!-- Footer
 	<footer>
    		<ul>
        		<li><a href="mailto:haokliao@gmail.com">email</a></li>
@@ -98,7 +99,7 @@
                <li><a href="https://github.com/haokliao">github.com/haokliao</a></li>
                <li><a href="https://www.instagram.com/keviain/">https://www.instagram.com/keviain/</a></li>
 		</ul>
-	</footer>
+	</footer> -->
 </body>
 
 </html>
