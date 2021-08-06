@@ -20,29 +20,37 @@
 	display: -webkit-flex;
 	display: flex;
 	}
-
 	/* Create three unequal columns that sits next to each other */
 	.column {
 	padding: 100px;
 	}
-
 	/* Left and right column */
 	.column.side {
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: .25;
 	}
-
 	/* Middle column */
 	.column.middle {
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 4;
+	margin: -20px;
 	/* justify-content: center; */
 	}
 
-	.blurb{
-		text-align:center;
+	.myface{
+		float: left;
+		margin-left: 75px;
+	}
+	.contacts{
+		float: right;
+		margin-right: 75px;
+	}
+	.img_email{
+		width: 25px;
+		height: 25px;
+		margin-top: -10px;
 	}
 
 	@media (max-width: 600px) {
@@ -70,29 +78,33 @@
 			<p>Hi ! I’m Hao Kai (Kevin) Liao, a Data Analytics student based in New York, passionate about data visualization.</p>
 			<p>I’m currently studying at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
 			<p>In my free time, I love baking bread and feeding guests, creating playlists for friends, and bouldering  </p>
-			<p></p>
 			
-			<img src= "https://haokliao.github.io/imgs/Ellipse%201.png"></img>
+			<img src= "https://haokliao.github.io/imgs/Ellipse%201.png" class='myface'></img>
 
-			<ul>
+			<div class='contacts'>
+				
+				<p>Contact me!
+					<img src= "https://haokliao.github.io/imgs/3586360_email_envelope_mail_send_icon.png" class='img_email'></img></p>
+				
+				<p class='socials'><img src= "https://haokliao.github.io/imgs/5282542_linkedin_network_social network_linkedin logo_icon.png"></img>
+					<img src= "https://haokliao.github.io/imgs/317712_code repository_github_repository_resource_icon.png"></img>
+					<img src= "https://haokliao.github.io/imgs/2959748_instagram_photo_share_icon.png"></img>
+				</p>
+				
+				<!-- <ul>
 				<li><a href="mailto:haokliao@gmail.com">email</a></li>
-				<li><a href="https://www.linkedin.com/in/haokliao/">https://www.linkedin.com/in/haokliao/</a></li>
-				<li><a href="https://github.com/haokliao">github.com/haokliao</a></li>
-				<li><a href="https://www.instagram.com/keviain/">https://www.instagram.com/keviain/</a></li>
-		 	</ul>
+				<li><a href="https://www.linkedin.com/in/haokliao/">linkedin</a></li>
+				<li><a href="https://github.com/haokliao">github</a></li>
+				<li><a href="https://www.instagram.com/keviain/">insta</a></li>
+		 	</ul></div> -->
+
+			
 		</div>
 
 		<div class="column side" style="background-color:rgb(216, 216, 216);">3</div>
 	  </div>
 
-<!-- Blurb -->
-	<div class="container">
-   		<div class="blurb">
-       		
-			
-                   
-		</div><!-- /.blurb -->
-	</div><!-- /.container -->
+
 
 <!-- Footer
 	<footer>
