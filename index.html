@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <!-- Style-->
 <style>
@@ -22,7 +22,7 @@
 	}
 	/* Create three unequal columns that sits next to each other */
 	.column {
-	padding: 100px;
+	padding: 75px;
 	}
 	/* Left and right column */
 	.column.side {
@@ -35,18 +35,23 @@
 	-webkit-flex: 2;
 	-ms-flex: 2;
 	flex: 4;
-	margin: -20px;
-	/* justify-content: center; */
+	margin: 10px;
+	justify-content: center;
 	}
 
 	.myface{
 		float: left;
 		margin-left: 75px;
 	}
+
 	.contacts{
 		float: right;
 		margin-right: 75px;
 	}
+	.socials{
+		height: 25px;
+	}
+
 	.img_email{
 		width: 25px;
 		height: 25px;
@@ -61,14 +66,17 @@
 	}
 </style>
 
-<!--Title-->
+<!-- Head -->
+<head>
 <title>Hao Kai (Kevin) Liao</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<header class='header'>
+		<h1>HKL</h1>
+	</header>
+</head>
 
-<!-- Header -->
-<header class='header'>
-	<h1>HKL</h1>
-</header>
-
+<!-- Body -->
+<body>
 <!-- Flex blocks-->
 	<div class="row">
 		<div class="column side" style="background-color:rgb(216, 216, 216);">1</div>
@@ -81,28 +89,21 @@
 			
 			<img src= "https://haokliao.github.io/imgs/Ellipse%201.png" class='myface'></img>
 
-			<div class='contacts'>
-				
-				<p>Contact me!
-					<img src= "https://haokliao.github.io/imgs/3586360_email_envelope_mail_send_icon.png" class='img_email'></img></p>
-				
-				<p class='socials'><img src= "https://haokliao.github.io/imgs/5282542_linkedin_network_social network_linkedin logo_icon.png"></img>
+			<div class = 'contacts'>
+			<p>Contact me!
+					<img src= "https://haokliao.github.io/imgs/3586360_email_envelope_mail_send_icon.png" class='img_email'></img>
+			</p>
+				<div class ="socials">
+					<img src= "https://haokliao.github.io/imgs/5282542_linkedin_network_social network_linkedin logo_icon.png"></img>
 					<img src= "https://haokliao.github.io/imgs/317712_code repository_github_repository_resource_icon.png"></img>
 					<img src= "https://haokliao.github.io/imgs/2959748_instagram_photo_share_icon.png"></img>
-				</p>
+				</div>
+			</div>
 				
-				<!-- <ul>
-				<li><a href="mailto:haokliao@gmail.com">email</a></li>
-				<li><a href="https://www.linkedin.com/in/haokliao/">linkedin</a></li>
-				<li><a href="https://github.com/haokliao">github</a></li>
-				<li><a href="https://www.instagram.com/keviain/">insta</a></li>
-		 	</ul></div> -->
 
-			
 		</div>
-
 		<div class="column side" style="background-color:rgb(216, 216, 216);">3</div>
-	  </div>
+	</div>
 
 
 
