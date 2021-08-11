@@ -22,19 +22,26 @@
         
         }
         
-        .middle-box{
+        /* .middle-box{
             margin-top:50px;
             padding-left:200px;
             padding-right:200px;
-        }
+        } */
 
-        .text{
+        /* .text{
             margin-bottom:50px;
-        }
+        } */
 
-        /* .contacts{
+        /* .contact-me{
              float: right; 
         } */
+        .left-column{
+            padding-top: 75px;
+        }
+
+        .middle-column{
+            padding-top: 75px;
+        }
 
         .socials{
              height: 50px; 
@@ -52,56 +59,62 @@
 
 
     <!-- As a heading -->
-    <div class="container">
+    <!-- <div class="container"> -->
         <nav class="navbar navbar-expand-lg navbar-light orange-background" >
             <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1">HKL</span>
             </div>
         </nav>
-    </div>
+    <!-- </div> -->
 
-        
+        <div class='container'>
+        <!--First Row-->
+        <div class='row no-gutters'>
 
-    <div class="container-xs middle-box" >
-        <div class='text'>
-        <p>Hi ! I’m Hao Kai (Kevin) Liao, a Data Analytics student based in New York, passionate about data visualization.</p>
-        <p>I’m currently studying at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
-        <p>In my free time, I love baking bread and feeding guests, creating playlists for friends, and bouldering</p>
-        </div>
+            <!-- Left Column size4-->
+            <div class='col-4 left-column '><img src= "https://haokliao.github.io/imgs/Ellipse%201.png" class='myface'></img></div>
 
-        <div class = 'row'>
-            <div class='col-7'><img src= "https://haokliao.github.io/imgs/Ellipse%201.png" class='myface'></img></div>
-
-            <div class='col-5'>
-                <div class = 'contacts'>
-                    <p>Contact me!
-                            <i class="far fa-envelope fa-lg"></i>
-                    </p>
-                </div>
-    
-                <div class = 'col-5 socials'>
-                            <a href='https://www.linkedin.com/in/haokliao/' class ='text-decoration-none text-linkedin'>
-                                <i class="fab fa-linkedin fa-2x" alt='find me on linkedin, @haokliao'></i>
-                            </a>
-
-                            <a href='https://www.github.com/haokliao' class='text-black text-github text-decoration-none' >
-                                <i class="fab fa-github fa-2x" alt='find me on github, @haokliao'></i>
-                            </a>
-
-                            <a href='https://www.instagram.com/keviain/' class='text-warning text-instagram'>
-                                <i class="fab fa-instagram fa-2x" alt='find me on instagram at keviain'></i>
-                            </a>
-                <!-- Use rows and stuff, row 1-8 for pic, row 8-12-->
+            <!-- Center Column size8-->
+            <div class="col-8 middle-column" id='Middle Column' >
+                <div class='text'>
+                <p>Hi ! I’m Hao Kai (Kevin) Liao, a Data Analytics student based in New York, passionate about data visualization.</p>
+                <p>I’m currently studying at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
+                <p>In my free time, I love baking bread and feeding guests, creating playlists for friends, and bouldering</p>
                 </div>
             </div>
-
         </div>
 
+        <!-- Second Row-->
+        <div class='row no-gutters'>
 
-    </div>
+            <div class = 'contact-me'>
+                <p>Contact me!  <i class="far fa-envelope fa-lg"></i></p>
+            </div>
 
+            <div class = 'col-4 socials'>
+                <div class='row'>
 
+                    <div class='col'>
+                    <a href='https://www.linkedin.com/in/haokliao/' class ='text-decoration-none text-linkedin'>
+                        <i class="fab fa-linkedin fa-2x" alt='find me on linkedin, @haokliao'></i>
+                    </a>
+                    </div>
 
+                    <div class='col'>
+                    <a href='https://www.github.com/haokliao' class='text-black text-github text-decoration-none' >
+                        <i class="fab fa-github fa-2x" alt='find me on github, @haokliao'></i>
+                    </a>
+                    </div>
+
+                    <div class='col'>
+                    <a href='https://www.instagram.com/keviain/' class='text-warning text-instagram'>
+                        <i class="fab fa-instagram fa-2x" alt='find me on instagram at keviain'></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        </div> 
 
 
 
