@@ -16,44 +16,55 @@
     <!--Font AWESOME-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <style>
-        .orange-background{
-            background-color: #FF9817;
-        
-        }
-        
-        /* .middle-box{
-            margin-top:50px;
-            padding-left:200px;
-            padding-right:200px;
-        } */
-
-        /* .text{
-            margin-bottom:50px;
-        } */
-
-        /* .contact-me{
-             float: right; 
-        } */
-        .left-column{
-            padding-top: 75px;
-        }
-
-        .middle-column{
-            padding-top: 75px;
-        }
-
-        .socials{
-             height: 50px; 
-            text-decoration: none;
-            color:inherit;
-        } 
- 
-    </style>
-
 
     <title>Hello, world!</title>
 </head>
+
+<style>
+    .orange-background{
+        background-color: #FF9817;
+    
+    }
+    
+    /* .middle-box{
+        margin-top:50px;
+        padding-left:200px;
+        padding-right:200px;
+    } */
+
+    /* .text{
+        margin-bottom:50px;
+    } */
+
+    /* .contact-me{
+            float: right; 
+    } */
+    #first-row{
+        padding-top: 75px;
+        padding-bottom: 25px;
+    }
+    #second-row{
+        padding-bottom: 25px;
+    }
+    #email-img{
+        height:50px;
+        padding-left: 50px;
+    }
+
+    #socials{
+            height: 50px; 
+        text-decoration: none;
+        color:inherit;
+    } 
+
+    #myface{
+        padding-left:40px;
+    }
+    /* #second-row{
+        padding-top: 50px;
+    } */
+</style>
+
 
 <body>
 
@@ -68,32 +79,49 @@
     <!-- </div> -->
 
         <div class='container'>
+
         <!--First Row-->
-        <div class='row no-gutters'>
+        <div class='row' id='first-row'>
 
-            <!-- Left Column size4-->
-            <div class='col-4 left-column '><img src= "https://haokliao.github.io/imgs/Ellipse%201.png" class='myface'></img></div>
+            <div class='col-4  '><img src= "https://haokliao.github.io/imgs/Ellipse%201.png" id='myface'></img></div>
 
-            <!-- Center Column size8-->
-            <div class="col-8 middle-column" id='Middle Column' >
+            <div class="col-8 " id='Middle Column' >
                 <div class='text'>
                 <p>Hi ! I’m Hao Kai (Kevin) Liao, a Data Analytics student based in New York, passionate about data visualization.</p>
                 <p>I’m currently studying at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
                 <p>In my free time, I love baking bread and feeding guests, creating playlists for friends, and bouldering</p>
                 </div>
             </div>
+
         </div>
 
         <!-- Second Row-->
-        <div class='row no-gutters'>
+        <div class='row' id='second-row'>
+            <div class='col-4'> Resume </div>
+            <div class='col-8'></div>
+        </div>
 
-            <div class = 'contact-me'>
-                <p>Contact me!  <i class="far fa-envelope fa-lg"></i></p>
+            <!-- Third Row-->
+            <div class='row' id='third-row'>
+
+                <div class='col-2'>            
+                    <div class = 'contact-me'>
+                    <p>Contact me!  </p>
+                    </div> 
+                </div>
+                
+                <div class='col-1 '>
+                    <i class="far fa-envelope fa-2x " id='email-img'></i>
+                </div>
+
+                <div class='col-8'></div>
             </div>
 
-            <div class = 'col-4 socials'>
-                <div class='row'>
+        <!-- Fourth Row-->
+        <div class='row' id='fourth-row'>
 
+            <div class = 'col-4' id='socials'>
+                <div class='row'>
                     <div class='col'>
                     <a href='https://www.linkedin.com/in/haokliao/' class ='text-decoration-none text-linkedin'>
                         <i class="fab fa-linkedin fa-2x" alt='find me on linkedin, @haokliao'></i>
@@ -113,6 +141,8 @@
                     </div>
                 </div>
             </div>
+            <div class='col-8'></div>
+
         </div> 
         </div> 
 
