@@ -25,6 +25,13 @@ html body{
 
 .blurb{
     font-family: 'Merriweather', serif;
+    font-size: 1.25em;
+}
+
+.hori-lines{
+    width: 100%;
+    overflow: hidden;
+
 }
 
 .big-word{
@@ -38,7 +45,7 @@ html body{
     height: 60px;
 }
 
-#first-row{
+#row-spaces{
     margin-top: 2em;
     margin-bottom: 1em;
 }
