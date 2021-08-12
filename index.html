@@ -2,12 +2,12 @@
 <html lang="en">
 
 
-
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -21,36 +21,45 @@
 </head>
 
 <style>
+
     .orange-background{
         background-color: #FF9817;
     
     }
-    
-    #first-row{
-        padding-top: 75px;
-        padding-bottom: 25px;
-    }
-    #second-row{
-        padding-bottom: 25px;
-    }
-    #email-img{
-        height:50px;
-        padding-left: 50px;
+    .left-row{
+        text-align:center;
     }
 
+    .contact-me{
+        background-color: #FF9817;
+        
+    }   
+    #first-row{
+        padding-top: 75px;
+    }
+
+    #talk{
+        padding-top: 10px;
+        font-size: 2vw;
+        color: white;
+
+    }
     #socials{
-            height: 50px; 
+        padding-top: 15px;
         text-decoration: none;
         color:inherit;
     } 
 
-    #myface{
-        <!-- Doesn't scale, f igure this out -->
-        padding-left:40px;
+    #talk{
+        padding-top: 10px;
+        font-size: 2vw;
+        color: white;
+
     }
-    /* #second-row{
-        padding-top: 50px;
-    } */
+    #resume-icon{
+        padding-bottom: 10px;
+    }
+    
 </style>
 
 
@@ -58,78 +67,88 @@
 
 
     <!-- As a heading -->
-    <!-- <div class="container"> -->
-        <nav class="navbar navbar-expand-lg navbar-light orange-background" >
+        <nav class="navbar navbar-expand-lg navbar-light orange-background topbar" >
             <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1">HKL</span>
             </div>
         </nav>
-    <!-- </div> -->
+
 
         <div class='container'>
-
         <!--First Row-->
-        <div class='row' id='first-row'>
+        <div class='row row-no-gutters' id='first-row'>
+            <!-- 12 cols in a row-->
+            <div class='col-1'></div>
+            
+            <div class='col-4 left-row' id='myface'>
+                <img src= "https://haokliao.github.io/imgs/Ellipse%201.png"></img>
+            </div>
 
-            <div class='col-4  '><img src= "https://haokliao.github.io/imgs/Ellipse%201.png" id='myface'></img></div>
+            <div class='col-1'></div>
 
-            <div class="col-8 " id='Middle Column' >
-                <div class='text'>
-                <p>Hi ! I’m Hao Kai (Kevin) Liao, a Data Analytics student based in New York, passionate about data visualization.</p>
-                <p>I’m currently studying at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
-                <p>In my free time, I love baking bread and feeding guests, creating playlists for friends, and bouldering</p>
+            <div class="col-6" id='Middle Column' >
+                <div class='blurb'>
+                <p>Hi ! I’m Hao Kai (Kevin) Liao, a student based in New York, passionate about data visualization.</p>
+                <p>I’m currently studying Data Analytics at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
+                <p>In my free time, I love baking bread and feeding friends, sharing music and playlists for people, and bouldering</p>
                 </div>
             </div>
 
+            
         </div>
+
 
         <!-- Second Row-->
-        <div class='row' id='second-row'>
-            <div class='col-4'> Resume </div>
-            <div class='col-8'></div>
-        </div>
+        <div class='row row-no-gutters' id='second-row'>
+            <div class='col-1'></div>
 
-            <!-- Third Row-->
-            <div class='row' id='third-row'>
-
-                <div class='col-2'>            
-                    <div class = 'contact-me'>
-                    <p>Contact me!  </p>
-                    </div> 
-                </div>
-                
-                <div class='col-1 '>
-                    <i class="far fa-envelope fa-2x " id='email-img'></i>
-                </div>
-
-                <div class='col-8'></div>
+            <div class='col-4 left-row contact-me'>            
+                <p class='align-middle' id='talk'>Let's get in touch!</p>
             </div>
 
-        <!-- Fourth Row-->
-        <div class='row' id='fourth-row'>
 
-            <div class = 'col-4' id='socials'>
+            
+        <div class='col-7'></div>
+        </div>
+
+        <!-- Third-->
+        <div class='row no-gutters' id='third-row'>
+            <div class='col-1'></div>
+            <div class = 'col-4 left-row' id='socials'>
                 <div class='row'>
                     <div class='col'>
-                    <a href='https://www.linkedin.com/in/haokliao/' class ='text-decoration-none text-linkedin'>
+                    <a href='https://github.com/haokliao/haokliao.github.io/raw/main/imgs/HaoKaiLiao_Resume.pdf'
+                      class='text-black' title='Resume!'>
+                    <i class="far fa-file fa-2x" ></i>
+                    </a>
+                    </div>
+
+                    <div class='col'>
+                    <a href='https://www.linkedin.com/in/haokliao/'
+                     class ='text-decoration-none text-linkedin' title='Linkedin'>
                         <i class="fab fa-linkedin fa-2x" alt='find me on linkedin, @haokliao'></i>
                     </a>
                     </div>
 
                     <div class='col'>
-                    <a href='https://www.github.com/haokliao' class='text-black text-github text-decoration-none' >
+                    <a href='https://www.github.com/haokliao' 
+                    class='text-black text-github text-decoration-none' title='Github' >
                         <i class="fab fa-github fa-2x" alt='find me on github, @haokliao'></i>
                     </a>
                     </div>
 
                     <div class='col'>
-                    <a href='https://www.instagram.com/keviain/' class='text-warning text-instagram'>
+                    <a href='https://www.instagram.com/keviain/' 
+                    class='text-warning text-instagram' title='Instagram!'>
                         <i class="fab fa-instagram fa-2x" alt='find me on instagram at keviain'></i>
                     </a>
+
+                    <div class='col'>  
                     </div>
+                    
                 </div>
             </div>
-            <div class='col-8'></div>
+            <div class='col-7'></div>
 
         </div> 
         </div> 
