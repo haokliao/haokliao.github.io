@@ -1,0 +1,45 @@
+
+body{
+background-color: #fff8d491;
+}
+
+.orange-background{
+    background-color: #FF9817;
+
+}
+.left-row{
+    text-align:center;
+}
+
+.contact-me{
+    background-color: #FF9817;
+    
+}   
+
+
+#first-row{
+    padding-top: 75px;
+}
+
+#talk{
+    padding-top: 10px;
+    font-size: 2vw;
+    color: white;
+
+}
+#socials{
+    padding-top: 15px;
+    text-decoration: none;
+    color:inherit;
+} 
+
+#talk{
+    padding-top: 10px;
+    font-size: 2vw;
+    color: white;
+
+}
+#resume-icon{
+    padding-bottom: 10px;
+}
+    
