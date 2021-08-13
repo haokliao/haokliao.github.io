@@ -45,7 +45,7 @@ html body{
 .big-name{
     font-family: 'Merriweather', serif;
     font-weight:10em;
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .fr-icon{
@@ -66,7 +66,7 @@ html body{
 
 .project-imgs{
     overflow:hidden;
-    width: 80%;
+
 }
 
 #spacer-1{
