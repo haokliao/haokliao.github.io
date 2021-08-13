@@ -20,7 +20,7 @@ html body{
 
 .contact-me{
     background-color:#FFDA44;
-    font-family: 'Merriweather', serif;
+    font-family: 'IBM Plex Mono', monospace;
     color: white;
     font-size: 1.25em;
     border-style: double;
@@ -28,7 +28,7 @@ html body{
 }   
 
 .blurb{
-    font-family: 'Merriweather', serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 1.25em;
     margin-top: 1em;
 }
@@ -36,6 +36,10 @@ html body{
 .hori-lines{
     width: 100%;
     overflow: hidden;
+}
+
+.text1{
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .big-name{
@@ -54,7 +58,7 @@ html body{
 }
 
 .project-heading{
-    font-family: 'Merriweather', serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-weight:5em;
     font-size: 25px;
     color:#ff9717e1;
@@ -62,7 +66,7 @@ html body{
 
 .project-imgs{
     overflow:hidden;
-    width: 100%;
+    width: 80%;
 }
 
 #spacer-1{
@@ -75,11 +79,16 @@ html body{
     margin-bottom: 0em;
 }
 
+#spacer-3{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 #talk{
     padding-top: 1em;
     font-size: 3vw;
     color: white;
-    font-family: 'Merriweather', serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-weight:900;
 }
 

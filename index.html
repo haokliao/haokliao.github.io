@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
     <title>Kevin Liao's Site</title>
 </head>
 
@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <!-- Second Row Big Name-->
+        <!--  Big Name-->
         <div class='row row-no-gutters'>
             <div class='col-4'></div>
             
@@ -46,14 +46,14 @@
         </div>
 
 
-        <!--Row Three big nest, text-->
+        <!--Big nest, contact me + Blurb-->
         <div class='row row-no-gutters' id='spacer-2'>
             <div class='col-4'>
             <div class=' text-center' id='myface'>
                 <img src= "https://haokliao.github.io/imgs/Ellipse%201.png"></img>
                 <!-- Nested contact-me-->
                 <div class='row no-gutters'>
-                <p class='align-middle contact-me' id='spacer-1' ><b>Let's get in touch!</b></p>
+                <p class='align-middle contact-me text1' id='spacer-1' ><b>Let's get in touch!</b></p>
                 <!-- Nested Socials-->
                     <div class='row no-gutters'>
 
@@ -89,73 +89,81 @@
             </div>              
             </div>
 
-            <!--Text blurb-->
-            <div class="col-7 white-background offset-1" >
+            <!--About me blurb-->
+            <div class="col-7 white-background offset-1" id='' >
                 <div class='blurb text-start'>
-                <br>
-                <p>Hi! I’m a student based in New York, passionate about data visualization.</p>
-                <p>I’m currently studying Data Analytics at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts.</p>
+                <p>Hi! I’m a student based in New York, passionate about data visualization</p>
+                <p>I’m currently studying Data Analytics at Baruch College and graduated The Culinary Institute of America with a degree in Baking and Pastry Arts</p>
                 <p>In my free time, I love baking bread and feeding friends, creating playlists for people, and bouldering</p>
                 </div>
             </div>
         </div>
 
+        <!-- Spacer betw projects-->
+        <div class='row no-gutters ' id='spacer-3'>
+            <div class = 'col-12' id='spacer-2' ></div>
+        </div>
 
-        <!--Fifth Row Projects text-->
-        <div class='row no-gutters ' id='spacer-1'>
-            <div class = 'col-4 project big-name' id='spacer-2'><b>P R O J E C T S</b> 
+
+
+        <!--Projects text-->
+        <div class='row no-gutters ' id=''>
+            <div class = 'col-4  ' id=''><p class='project big-name'><b>P R O J E C T S</b> </p>
             </div> 
-            <div class='col-8'></div>
+                <div class='row no-gutters ' id=''>
+                    <div class = 'col-12 ' >
+                        <p class='project-heading text-start'id=''>Critical Force Visualization</p>
+                        <div class='row no-gutters ' id=''>
+                            <div class= 'col-11 text1'>
+                            <p class=''>Pandas, Matplotlib, Seaborn, Conda</p>
+                            </div>
+            
         </div> 
 
-        <!--Sixth Row CFV Nested?-->
+
+
+        <!--Critical Force Text, Image-->
         <div class='row no-gutters ' id=''>
-            
-            <div class = 'col-6 ' id='spacer-1'>   
-                <p></p>
-                <p class='project-heading text-center'>Critical Force Visualization</p>
-                    <div class='row no-gutters ' id=''>
-                        <div class='col-11 ' id='spacer-1'><ul>• Conducted exploratory data analysis and visualizations looking at rock climbing forces using
-                            data from An All-Out Test to Determine Finger Flexor Critical Force in Rock Climbers (Giles et al 2020)</ul>
-                           
-                           <ul>• Utilized data to draw insight and conclusions on how ff-CF, W’ relate to grades climbed etc,
-                                representing this using histogram, scatterplots, and more.</ul>
-                            <ul>
-                           • Strategically designed visuals using gathered data to display a variety of data points accurately
-                           and efficiently, which were used to draw conclusions and make data-driven analysis.
-                           </ul></div>
-                        
-                    </div>
-                    
-                    
+            <div class='col-5 text1 ' id=''><ul>• Conducted exploratory data analysis and visualizations looking at rock climbing forces using
+                data from An All-Out Test to Determine Finger Flexor Critical Force in Rock Climbers (Giles et al 2020)</ul>
+                
+                <ul>• Utilized data to draw insight and conclusions on how ff-CF, W’ relate to grades climbed etc,
+                    representing this using histogram, scatterplots, and more.</ul>
+                <ul>• Strategically designed visuals using gathered data to display a variety of data points accurately
+                and efficiently, which were used to draw conclusions and make data-driven analysis.</ul>
             </div>
-            </span>
-            <div class='col-6  text-center'>
+            <div class='col-6 offset-1'>
                 <img src='/imgs/cf-vis.png' class=' img-responsive project-imgs'></img>
             </div>
         </div>
 
 
-        <!--Seventh Row-->
-        <div class='row no-gutters ' id='spacer-1'>
+        <!--Climbing Disc titles-->
+        <div class='row no-gutters ' id='spacer-2'>
             <div class = 'col-6' >
-                <p></p>
-                <p class='project-heading text-center'id='spacer-1'>Climbing Disciplines Vis</p>
-                    <div class='row no-gutters ' id=''>
-                        <div class='col-12' id='spacer-1'><ul>• Utilized Jupyter Notebooks and iPywidgets to create an interactive display which generated
-                            heatmaps for three different disciplines of climbing, (bouldering, top rope, lead) allowing for easy
-                            accessibility using Poetry as a Python dependency manager</ul>
-                           
-                           <ul>•Gathered and sourced data from the local climbing community for datasets, searching for
-                            trends between years climbing, climbing grade, and age.</ul>
-                        </div>
+                <p class='project-heading text-start'id=''>Climbing Disciplines Vis</p>
+                <div class='row no-gutters ' id=''>
+                    <div class= 'col-11'>
+                    <p class='text1'>Pandas, Seaborn, iPywidgets, Poetry</p>
                     </div>
-           
+                </div>
             </div>
+        </div>
 
-            <div class='col-6  text-center'>
-                <img src='/imgs/bouldering_img_1.png' class=' img-responsive project-imgs'></img>
+
+        <!--Climbindg Disc Text, image-->
+        <div class='row no-gutters ' id=''>
+            <div class='col-5 text1' id=''><ul>• Created an interactive display which generated
+                heatmaps for three different disciplines of climbing, (bouldering, top rope, lead) allowing for easy
+                accessibility using Poetry as a Python dependency manager</ul>
+                
+                <ul>•Gathered and sourced data from the local climbing community for datasets, searching for
+                trends between years climbing, climbing grade, and age.</ul>
             </div>
+            <div class='col-6 offset-1'>
+                <img src='/imgs/bouldering_img_1.png' class='img-responsive project-imgs'></img>
+            </div>
+            
         </div>
 
             <!-- <div class='col-1'></div> -->
