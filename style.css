@@ -2,9 +2,6 @@ html body{
     background-color: #f5f1eb;
 }
 
-.orange-background{
-    background-color: #ff9717e1;
-}
 .yellow-background{
     background-color: #FFDA44;
     border-style: double;
@@ -40,12 +37,13 @@ html body{
 
 .text1{
     font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.25vw;
 }
 
 .big-name{
     font-family: 'Merriweather', serif;
     font-weight:10em;
-    font-size: 2.5em;
+    font-size: 4vw;
 }
 
 .fr-icon{
@@ -53,19 +51,19 @@ html body{
     height: 60px;
 }
 
-
-
 .project-heading{
     font-family: 'IBM Plex Mono', monospace;
     font-weight:5em;
-    font-size: 25px;
+    font-size: 2vw;
     color:#ff9717e1;
 }
 
 .project-imgs{
-    overflow:hidden;
 
+    height: auto;
+    max-width: 100%;
 }
+
 
 #spacer-1{
     margin-top: 2em;
