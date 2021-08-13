@@ -7,6 +7,8 @@ html body{
 }
 .yellow-background{
     background-color: #FFDA44;
+    border-style: double;
+    border-color: #fff;
 }
 .white-background{
     background-color: #fff;
@@ -21,6 +23,8 @@ html body{
     font-family: 'Merriweather', serif;
     color: white;
     font-size: 1.25em;
+    border-style: double;
+    border-color: #fff;
 }   
 
 .blurb{
@@ -32,10 +36,9 @@ html body{
 .hori-lines{
     width: 100%;
     overflow: hidden;
-
 }
 
-.big-word{
+.big-name{
     font-family: 'Merriweather', serif;
     font-weight:10em;
     font-size: 40px;
@@ -46,9 +49,30 @@ html body{
     height: 60px;
 }
 
-#row-spaces{
+.project{
+    margin-bottom: 60px;
+}
+
+.project-heading{
+    font-family: 'Merriweather', serif;
+    font-weight:5em;
+    font-size: 25px;
+    color:#ff9717e1;
+}
+
+.project-imgs{
+    overflow:hidden;
+    width: 100%;
+}
+
+#spacer-1{
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+
+#spacer-2{
+    margin-top: 2em;
+    margin-bottom: 0em;
 }
 
 #talk{
@@ -59,11 +83,6 @@ html body{
     font-weight:900;
 }
 
-#socials{
-    padding-top: 1em;
-    text-decoration: none;
-    color:inherit;
-} 
 
 
 
