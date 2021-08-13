@@ -26,6 +26,7 @@ html body{
 .blurb{
     font-family: 'Merriweather', serif;
     font-size: 1.25em;
+    margin-top: 1em;
 }
 
 .hori-lines{
@@ -47,7 +48,7 @@ html body{
 
 #row-spaces{
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 #talk{
