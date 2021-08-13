@@ -61,7 +61,7 @@ html body{
 .project-imgs{
 
     height: auto;
-    min-width: auto;
+    max-width: 100%;
 }
 
 
