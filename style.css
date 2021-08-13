@@ -26,7 +26,7 @@ html body{
 
 .blurb{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.25em;
+    font-size: 1.5vw;
     margin-top: 1em;
 }
 
@@ -61,7 +61,7 @@ html body{
 .project-imgs{
 
     height: auto;
-    max-width: 100%;
+    min-width: auto;
 }
 
 
