@@ -1,7 +1,6 @@
 html body{
     background-color: #f5f1eb;
 }
-
 .yellow-background{
     background-color: #FFDA44;
     border-style: double;
@@ -9,10 +8,6 @@ html body{
 }
 .white-background{
     background-color: #fff;
-}
-
-.text-center{
-    text-align:center;
 }
 
 .contact-me{
@@ -26,7 +21,7 @@ html body{
 
 .blurb{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.5vw;
+    font-size: clamp(10px,1.5vw,18px);
     margin-top: 1em;
 }
 
@@ -37,13 +32,13 @@ html body{
 
 .text1{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.25vw;
+    font-size: clamp(8px,1.25vw,16px);
 }
 
 .big-name{
     font-family: 'Merriweather', serif;
     font-weight:10em;
-    font-size: 4vw;
+    font-size: clamp(36px,4vw, 48px);;
 }
 
 .fr-icon{
@@ -53,40 +48,30 @@ html body{
 
 .project-heading{
     font-family: 'IBM Plex Mono', monospace;
-    font-weight:5em;
-    font-size: 2vw;
+    font-weight:5;
+    font-size: clamp(12px,2vw, 24px);
     color:#ff9717e1;
 }
 
 .project-imgs{
-
     height: auto;
     max-width: 100%;
 }
 
-
+/* Spacers */
 #spacer-1{
     margin-top: 2em;
     margin-bottom: 1em;
 }
-
 #spacer-2{
     margin-top: 2em;
     margin-bottom: 0em;
 }
-
 #spacer-3{
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
-#talk{
-    padding-top: 1em;
-    font-size: 3vw;
-    color: white;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight:900;
-}
 
 
 
