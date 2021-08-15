@@ -1,6 +1,11 @@
 html body{
     background-color: #f5f1eb;
 }
+
+html ul{
+    line-height: 200%;
+}
+
 .yellow-background{
     background-color: #FFDA44;
     border-style: double;
@@ -8,6 +13,7 @@ html body{
 }
 .white-background{
     background-color: #ffffff;
+    
 }
 
 .contact-me{

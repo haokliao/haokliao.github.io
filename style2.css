@@ -2,14 +2,15 @@ body{
     background-color: #F8F8F8;
     padding-top: 2vw;
 }
+
 p{
     font-family: 'IBM Plex Mono', monospace;
 }
 
-.container{
+/* .container{
     padding-left: 2vw;
     margin-right: 2vw;
-}
+} */
 
 .box-col{
     background-color: #EB5A00;
@@ -17,9 +18,9 @@ p{
 
 .header{
     height:3.5vw;
-    width:auto;
-    border-radius:10px;
-    border: 2px solid #fff;
+    /* width:auto; */
+    /* border-radius:10px;
+    border: 2px solid #fff; */
 }
 
 .blue-border{
@@ -29,7 +30,7 @@ p{
 }
 
 #big-name{
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 
@@ -39,6 +40,6 @@ p{
 
 
 .spacer2{
-    margin-right: 1vw;
-    padding-right: 1vw;
+    margin-right: .5em;
+    padding-right: .5em;
 }
