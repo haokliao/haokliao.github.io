@@ -32,13 +32,13 @@ html body{
 
 .text1{
     font-family: 'IBM Plex Mono', monospace;
-    font-size: clamp(8px,1.25vw,16px);
+    font-size: clamp(8px,1.25vw,14px);
 }
 
 .big-name{
     font-family: 'Merriweather', serif;
     font-weight:10em;
-    font-size: clamp(36px,4vw, 48px);;
+    font-size: clamp(24px,4vw, 36px);;
 }
 
 .fr-icon{
@@ -49,7 +49,7 @@ html body{
 .project-heading{
     font-family: 'IBM Plex Mono', monospace;
     font-weight:5;
-    font-size: clamp(12px,2vw, 24px);
+    font-size: clamp(12px,2vw, 20px);
     color:#ff9717e1;
 }
 
