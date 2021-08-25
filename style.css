@@ -5,19 +5,16 @@ body {
 
 /* The grid container */
 .grid-container {
-    margin-top: 3em;
-    padding-left: 3em;
-    padding-right: 3em;
-    margin-bottom: 3 em;
+    margin: 3em 3em 3em 3em;
 
-    display: grid;
-    grid-column-gap: 10px; 
+    display: grid; 
     grid-template-areas: 
     'header header header header '
     'left left right right '
     'socials socials right right '
     '. . right right '
     'projects projects projects .';
+    max-width: 1500px;
 }
 
 .header {
@@ -25,10 +22,9 @@ body {
     background-color: #0453E3 ;
 
     margin-bottom: 1em;
-    padding: 1em;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    max-width: 1400px;
+    padding: 0em 1em 0em 1em;
+
+    max-width: 1500px;
     
     border-style: solid;
     border-width: 2px;
@@ -57,10 +53,11 @@ body {
 .left {
     background-color:#FBFAFA;
     grid-area: left;
-    padding: 2em 2em 1em 0em;
+    padding: 2em 1em 2em 2em;
     height:fit-content;
     max-width: 550px;
-    /* figure out height adjusting */
+    margin-bottom: 1em;
+    
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -71,11 +68,11 @@ body {
 .headshot{
     /* align: center; */
     float:left;
-    /* padding-top: 5em; */
     padding-right: 2em;
     padding-left: 1em;
 }
 
+/* table inside left */
 .nest-deets{
     text-align:right;
     float: right;
@@ -102,20 +99,17 @@ td{
     background-color:#FBFAFA;
     grid-area: right;
     padding: 0em 2em 1em 3em;
-    /*figure out why right margin moves when screen big*/
-    /* overflow: hidden; */
 
     border-style: solid;
     border-width: 2px;
     border-radius: 7px;
     border-color: #0453E3;
-    max-width: 680px;
+    max-width: 800px;
 }
 
 .right p{
     font-family: 'IBM Plex Mono';
     font-size: 15px;
-    letter-spacing: 1px;
     line-height: 2;
 }
 
@@ -133,7 +127,7 @@ td{
     background-color: #FBFAFA ;
     grid-area:socials;
     margin-top: 1em;
-    max-width: 585px;
+    max-width: 600px;
 
     border-style: solid;
     border-width: 2px;
@@ -217,12 +211,11 @@ td{
     display: grid;
     grid-column-gap: 10px;
     grid-template-areas:
-    'proj-cfv . . cfv-img cfv-img'
-    'proj-cfv . . cfv-img cfv-img'
-    'proj-cdv . . cdv-img cdv-img'
-    'proj-cdv . . cdv-img cdv-img';
+    'proj-cfv . cfv-icon cfv-icon cfv-icon' 
+    'proj-cfv . cfv-icon cfv-icon cfv-icon' 
+    'proj-cdv . cdv-icon cdv-icon cdv-icon' 
+    'proj-cdv . cdv-icon cdv-icon cdv-icon';
 }
-
 
 .proj-cfv{
     grid-area: proj-cfv;
@@ -237,16 +230,19 @@ td{
 
 }
 
-.cfv-img{
-    grid-area: cfv-img;
+.cfv-icon{
+    grid-area: cfv-icon;
+}
+.cfv-icon img{
     width: 75%;
 }
 
-.cdv-img{
-    grid-area: cdv-img;
-    width: 75%
+.cdv-icon{
+    grid-area: cdv-icon;
 }
-
+.cdv-icon img{
+    width: 75%;
+}
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
@@ -258,4 +254,48 @@ td{
     'socials socials '
     'projects projects ';
 }
+
+.header i{
+    visibility: hidden;
+    text-align: center;
+}
+
+.headshot{
+text-align: center;
+} 
+
+.nest-deets{
+    text-align: center;
+
+}
+
+.project-grid{
+    grid-template-areas:
+    'proj-cfv proj-cfv' 
+    'cfv-icon cfv-icon' 
+    'proj-cdv proj-cdv ' 
+    'cdv-icon cdv-icon' ;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+
+.small-txt{
+    margin-bottom: 0em;
+}
+
+
+.cfv-icon img{
+    width: 100%;
+}
+
+.cdv-icon img{
+    width: 75%;
+}
+
+.menu-bar i{
+    visibility: hidden;
+}
+
 }
