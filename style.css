@@ -1,7 +1,6 @@
 body {
     background: #efefef;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* The grid container */
@@ -14,11 +13,11 @@ body {
     display: grid;
     grid-column-gap: 10px; 
     grid-template-areas: 
-    'header header header header header'
-    'left left right right right'
-    'socials socials right right right'
-    '. . right right right'
-    'projects projects projects projects .';
+    'header header header header '
+    'left left right right '
+    'socials socials right right '
+    '. . right right '
+    'projects projects projects .';
 }
 
 .header {
@@ -29,7 +28,7 @@ body {
     padding: 1em;
     padding-bottom: 0px;
     padding-top: 0px;
-    max-width: 1500px;
+    max-width: 1400px;
     
     border-style: solid;
     border-width: 2px;
@@ -104,12 +103,13 @@ td{
     grid-area: right;
     padding: 0em 2em 1em 3em;
     /*figure out why right margin moves when screen big*/
+    /* overflow: hidden; */
 
     border-style: solid;
     border-width: 2px;
     border-radius: 7px;
     border-color: #0453E3;
-    max-width: 800px;;
+    max-width: 680px;
 }
 
 .right p{
