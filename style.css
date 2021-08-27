@@ -98,7 +98,7 @@ td{
 .right {
     background-color:#FBFAFA;
     grid-area: right;
-    padding: 1em 4em 0em 4em;
+    padding: .5em 4em 0em 4em;
 
     border-style: solid;
     border-width: 2px;
@@ -209,7 +209,7 @@ td{
 
 .project-grid{
     display: grid;
-    grid-column-gap: 10px;
+    grid-column-gap: 20px;
     grid-template-areas:
     'project-cfv  proj-cfv-icon ' 
     'project-cdv proj-cdv-icon ';
@@ -230,6 +230,7 @@ td{
 .critforcevis-img{
     grid-area: proj-cfv-icon;
     float: right;
+    justify-content: center;
     width: 100%;
     padding-left: 1em;
     padding-right: 1em;
@@ -238,6 +239,7 @@ td{
 .climbdiscvis-img{
     grid-area: proj-cdv-icon;
     float: right;
+    justify-content: center;
     width: 100%;
     padding-left: 1em;
     padding-right: 1em;
