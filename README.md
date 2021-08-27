@@ -6,6 +6,7 @@ Website done with HTML, CSS, Bootstrap
 
 <br/>
 
+
 Wanted to have a learning journey into front-end, and really work on my knowledge of HTML and CSS to really refine some of my skills in preparation to learn D3.js (for data vis)
 
 Started drafting and multiple iterations first on figma, [click here]("https://www.figma.com/file/vrZlp5s0hVYgYLFVym8ocn/Github-Site?node-id=104%3A19") to see the progress!
@@ -23,7 +24,6 @@ Currently still a work in progress?
 ### to do:
 
 <ul>
-<li>Work on responsiveness (icons still don't scale)</li>
-<li>Adjust containers and etc on mobile</li>
+
 <li>Maybe make a shiny animation?</li>
 </ul>
