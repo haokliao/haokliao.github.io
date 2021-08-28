@@ -25,7 +25,7 @@ body {
     padding: 0em 1em 0em 1em;
     max-width: 100%;
     
-    border-style: solid;
+    border-style: ridge;
     border-width: 2px;
     border-radius: 10px;
     border-color: white;
@@ -37,16 +37,19 @@ body {
     font-family:'Press Start 2P';
     font-size: 28px;
     color: white;
+    text-shadow: 
+    0.05em 0.05em 0 yellow,
+    0.075em 0.075em 0 blue,
+    0.1em 0.1em 0 purple,
+    0.125em 0.125em 0 black;
 } 
 
 .header i{
     float: right;
     margin: 4px;
     color:#FFF; 
-
+    
 }
-
-/*left*/
 
 
 .left {
@@ -58,7 +61,7 @@ body {
     margin-bottom: 1em;
     align-self: center;
     
-    border-style: solid;
+    border-style: ridge;
     border-width: 2px;
     border-radius: 10px;
     border-color: #0453E3;
@@ -129,7 +132,7 @@ td{
     margin-top: 1em;
     max-width: 40em;
 
-    border-style: solid;
+    border-style: ridge;
     border-width: 2px;
     border-radius: 7px;
     border-color: #0453E3;
@@ -159,6 +162,8 @@ td{
 .menu-bar{
     background-color: #0453E3 ;
     margin-bottom: 2em;
+    border-width: 2px;
+    border-radius: 5px;
 }
 
 .menu-bar p{
