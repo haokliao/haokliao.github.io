@@ -32,16 +32,16 @@ body {
 }
 
 /* header */
-.header p{
+.header h1{
     display: inline-block;
     font-family:'Press Start 2P';
-    font-size: 28px;
+    font-size: 26px;
     color: white;
     text-shadow: 
-    0.05em 0.05em 0 yellow,
-    0.075em 0.075em 0 blue,
-    0.1em 0.1em 0 purple,
-    0.125em 0.125em 0 black;
+    0.025em 0.025em 0 yellow,
+    0.050em 0.050em 0 orange,
+    0.075em 0.075em 0 red,
+    0.1em 0.1em 0 black;
 } 
 
 .header i{
