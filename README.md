@@ -1,29 +1,23 @@
 ## Repo for my github site!
-Website done with HTML, CSS, Bootstrap
+Website done with HTML, CSS, (iteration 1 done with Bootstrap)
 
 ---
 
+Wanted to have a learning journey into web development, and really work on my knowledge of HTML and CSS by applying some general concepts for a site.
+<br>
 
-<br/>
+Started designed/drafted my multiple iterations first on figma, [check it out here](https://www.figma.com/file/vrZlp5s0hVYgYLFVym8ocn/Github-Site?node-id=202%3A2) to see the progress!
 
-
-Wanted to have a learning journey into front-end, and really work on my knowledge of HTML and CSS to really refine some of my skills in preparation to learn D3.js (for data vis)
-
-Started drafting and multiple iterations first on figma, [click here]("https://www.figma.com/file/vrZlp5s0hVYgYLFVym8ocn/Github-Site?node-id=104%3A19") to see the progress!
-Three/four different iterations (there was one with vectors that honestly, seemed very fun and I might still work on that!)
+Currently working on creating a little JS to show my Spotify most recent favs?
 
 <br>
-<br/>
-Spent a lot of time trying to work through pure HTML and CSS, and a friend (thanks carol!!) introduced me to Bootstrap, which I ended up using for the entirety of the site.
 
-<br>
-<br/>
-Currently still a work in progress?
+### To Do:
 
 
-### to do:
+- [ ] Create a small little one liner of what I've been listening to on spotify (a whole JOURNEY through spotify API so far)
+- [ ] Get API tokens for requesting song 
+- [ ] Write some JS
+- [ ] Env file for tokens
+- [ ] Add lines into HTML
 
-<ul>
-
-<li>Maybe make a shiny animation?</li>
-</ul>
