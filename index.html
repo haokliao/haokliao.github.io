@@ -30,7 +30,7 @@
 
   </div>
 
-  <div class="left" >
+  <div class="left" id='blue-border'>
         <img src="imgs/Ellipse 1.png" class='headshot' alt='Hao Kai Liao headshot'/>
         <!-- can I do this using span??? vs table align left align right? -->
         <table>
@@ -44,7 +44,6 @@
                 <td class="words">Queens, NY</td>
             </tr>
             <tr></tr>
-
             <tr>
                 <td>I’m listening to..</td>
                 <td class="words">All My Dogs by Sam Truth</td>
@@ -53,7 +52,7 @@
   </div>
 
 
-  <div class="about">
+  <div class="about" id='blue-border'>
     <p class= 'abt-text'>About Me</p>
     <div class='blurb'>
         <p>Hi ! I’m a student based in New York, with an interest in front end/web development.</p>
@@ -62,7 +61,7 @@
     </div>
 </div>
 
-<div class='socials'>
+<div class='socials' id='blue-border'>
     <div class='icons'>
 
         <a href='mailto:haokliao@gmail.com' class='text-decoration-none' title='E-mail me!'>
@@ -94,38 +93,54 @@
 </div>
 
 
+    <div class="projects-wd" id='blue-border'>
+
+        <div class='menu-bar'>
+            <p>Projects - Web Development</p>        
+        </div>
+
+        <span class='project-slice'>
+            <p class='big-txt'>Slices (Work in Progress)</p>
+            <p class='small-txt'>Figma, HTML, CSS, React(to do)</p>
+            <p class='small-txt'>Small fruit themed blog site featuring musings on music. inspired by manila-folders!</p>
+
+            <a href='https://github.com/haokliao/slices' >
+                <img src="imgs/slices.png" class='slices-img' id='smaller-pics' alt='Slices Project'/>
+            </a>
+        </span>
+    </div>
 
 
-<div class="projects">
-
-    <div class='project-grid'>
-
+    <div class="projects-da" id='blue-border'>
         <div class='menu-bar'>
             <p>Projects - Data Analytics</p>        
         </div>
 
-        <div class='project-critforcevis'>
-            <p class='big-txt'>Critical Force Visualization</p>
+        <span class='project-critforcevis'>
+            <p class='big-txt'>Critical Force Visualization<br></p>
             <p class='small-txt'>Pandas, Seaborn, Matplotlib, Conda</p>
-        </div>
+            <p class='small-txt'>Data Visualizations done based on data from Lattice Training's paper (Climbing Critical Force Data, Giles et al 2020)</p>
+            <div>
+            <a href='https://github.com/haokliao/Critical-Force-Visualization' >
+            <img src="imgs/cf-vis.png"  id='smaller-pics' alt='Critical Force Visualization Project'/>
+            </a>
+            </div>
+        </span>
         
-        <a href='https://github.com/haokliao/Critical-Force-Visualization' >
-        <img src="imgs/cf-vis.png" class='critforcevis-img' alt='Critical Force Visualization Project'/>
-        </a>
-
-        <div class='project-climbdiscvis'>
-            <p class='big-txt'>Climbing Disciplines Visualization</p>
+        <span class='project-climbdiscvis'>
+            <p class='big-txt'>Climbing Disciplines<br>
+                 Visualization</p>
             <p class='small-txt'>Pandas, iPyWidgets, Seaborn, Poetry</p>
-        </div>
+            <p class='small-txt'>Interactive data vis done through crowd sourcing local climbers<br>
+                 and their grades in three different climbing disciplines<br>
+                 (bouldering, toprope, lead)</p>
 
-        <a href='https://github.com/haokliao/Climbing-Disciplines-Vis' >
-        <img src="imgs/bouldering_img_1.png" class='climbdiscvis-img' alt='Climbing Disciplines Project'/>
-        </a>
+            <a href='https://github.com/haokliao/Climbing-Disciplines-Vis' >
+            <img src="imgs/bouldering_img_1.png" id='smaller-pics' alt='Climbing Disciplines Project'/>
+            </a>
+        </span>
 
     </div>
-
-</div>
-
 
 
 </body>

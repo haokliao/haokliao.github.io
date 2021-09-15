@@ -3,17 +3,26 @@ body {
     box-sizing: border-box;
 }
 
+#blue-border{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: #0453E3;
+    box-shadow: 0 0 0 2px white;
+    background-color: #FBFAFA
+}
+
 /* The grid container */
 .grid-container {
-    margin: 3em 3em 3em 3em;
-
+    margin: 3em;
+    
     display: grid; 
     grid-template-areas: 
-    'header header header header header '
-    'left left about about about'
-    'socials socials about about about'
-    '. . about about about'
-    'projects projects none none none';
+    'header header header header '
+    'left left  about about'
+    'socials socials about about'
+    'projects-wd projects-wd projects-da projects-da'
+    '. . projects-da projects-da';
     max-width: 90em;
     grid-column-gap: 2em;
     }
@@ -23,7 +32,7 @@ body {
     background-color: #0453E3 ;
     margin-bottom: 1em;
     padding: 0em 1em 0em 1em;
-    max-width: 100%;
+    width: 100%;
     
     border-style: ridge;
     border-width: 2px;
@@ -38,35 +47,32 @@ body {
     font-size: 26px;
     color: white;
     text-shadow: 
-    0.025em 0.025em 0 yellow,
-    0.050em 0.050em 0 orange,
-    0.075em 0.075em 0 red,
-    0.1em 0.1em 0 black;
+    0.050em 0.050em 0 yellow,
+    0.075em 0.075em 0 orange,
 } 
 
-/* first left box */
 
+
+/* first left box */
 .left {
-    background-color:#FBFAFA;
     grid-area: left;
-    padding: 2em 1em 2em 3em;
+    padding: 1em 1em 1em 1.5em;
     height:fit-content;
-    max-width: 36em;
-    margin-bottom: 1em;
-    align-self: center;
-    
+
+    margin-left: 2em;
+    margin-top: 1em;
+
     border-style: ridge;
     border-width: 2px;
     border-radius: 10px;
     border-color: #0453E3;
-    box-shadow: 0 0 0 1px white;
+    box-shadow: 0 0 0 2px white;
 }
 
 .headshot{
     /* align: center; */
     float:left;
-     padding-right: 2em;
-
+    padding-right: 1.5em;
 }
 
 /* table inside left */
@@ -91,47 +97,34 @@ td{
 
 
 /* right */
-
 .about {
-    background-color:#FBFAFA;
     grid-area: about;
-    padding: .5em 4em 0em 4em;
+    padding: 0em 2.5em 1.5em 2.5em;
+}
 
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 7px;
-    border-color: #0453E3;
-    box-shadow: 0 0 0 1px white;
-    max-width: 100%;
+.blurb{
+    padding-left: 1em;
 }
 
 .about p{
     font-family: 'IBM Plex Mono';
     font-size: 15px;
-    line-height: 2;
+    line-height: 2.25;
+    letter-spacing: 15%;  
 }
 
 .about > .abt-text{
     font-size: 25px;
     font-family: 'Press Start 2P';
-
 }
-
-
 
 /* socials */
 
 .socials{
     background-color: #FBFAFA ;
     grid-area:socials;
-    margin-top: 1em;
-    max-width: 40em;
-
-    border-style: ridge;
-    border-width: 2px;
-    border-radius: 7px;
-    border-color: #0453E3;
-    box-shadow: 0 0 0 1px white;
+    margin-left: 2em;
+    align-self:center;
 
 }
 
@@ -141,7 +134,7 @@ td{
 }
 
 .icons{
-    background-color: #ACBCD9;
+    background-color: #D1E2FF;
     padding-left: 3em;
     padding-right: 3em;
     display: flex;
@@ -154,27 +147,9 @@ td{
 }
 
 
-/*projects */
 
-.projects {
-    margin-top: 1em;
-    grid-area: projects;
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    max-width: 40em;
-
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 7px;
-    border-color: #0453E3;
-    box-shadow: 0 0 0 1px white;
-
-}
-
-/* project menu bar*/
+/* menu bar*/ 
 .menu-bar{
-    grid-area: menu-bar;
     background-color: #0453E3 ;
     margin-bottom: 2em;
     border-width: 2px;
@@ -191,55 +166,46 @@ td{
 .big-txt{
     font-family: 'Press Start 2P';
     font-size: 20px;
-    align-self: center;
-    margin-bottom: -10px;
+    padding-top: 1em
 }
 
 .small-txt{
     font-family: 'IBM Plex Mono';
     font-size: 15px;
-    margin-bottom: 10em;
-}
-
-
-.project-grid{
-    display: grid;
-    grid-column-gap: 20px;
-    grid-template-areas:
-    'menu-bar menu-bar'
-    'project-cfv  proj-cfv-icon ' 
-    'project-cdv proj-cdv-icon ';
-}
-
-.project-critforcevis{
-    grid-area: project-cfv;
-    padding-top: 1em;
-    float: left;
-}
-
-.project-climbdiscvis{
-    grid-area: project-cdv;
-    padding-top: 1em;
-    float: left;
-}
-
-.critforcevis-img{
-    grid-area: proj-cfv-icon;
-    float: right;
-    justify-content: center;
-    width: 100%;
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.climbdiscvis-img{
-    grid-area: proj-cdv-icon;
-    float: right;
-    justify-content: center;
-    width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+
+/*projects-web development*/
+.projects-wd{
+    grid-area: projects-wd;
+    margin: 1em 0em 2em 2em;
+    padding-bottom: 2em;
+    background-color: #f1f1f1;
+    text-align: center;
+    background: #efefef;
 }
+.slices-img{
+    border-radius: 50%;
+    padding-bottom: em;
+}
+
+
+/* projects-data analytics */
+.projects-da{
+    grid-area: projects-da;
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+}
+
+/*resize imgs*/
+#smaller-pics{
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -250,59 +216,62 @@ td{
     'left left   '
     'right right '
     'socials socials '
-    'projects projects ';
+    'projects-wd projects-wd'
+    'projects-da projects-da ';
+}
+
+.header{
+    width: 93%;
+    margin-left: -1em;
+}
+
+.left{
+    margin-top: 0em;
+    margin-left: -1em;
 }
 
 .right{
+    margin-left: -1em;
     padding: 0em 1.5em 0em 1em;
 }
 
-.header i{
-    visibility: hidden;
-    text-align: center;
+.socials{
+    margin-left: -1em;
+    margin-top: 1em;
 }
 
 .headshot{
-text-align: center;
+float: none;
+padding-left: 2em;
 } 
 
 .nest-deets{
     text-align: center;
-
 }
 
-.project-grid{
-    grid-template-areas:
-    'menu-bar'
-    'project-cfv ' 
-    'project-cfv-icon' 
-    'project-cdv' 
-    'project-cdv-icon' ;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-bottom: 0em;
+.projects-wd{
+    margin-left: -1em;
 }
 
+.projects-da{
+    margin-left: -1em;
+}
+
+#smaller-pics{
+    width: 90%
+}
+
+.big-txt{
+    padding-right: 1em;
+    padding-left: 1em;
+}
 
 .small-txt{
     margin-bottom: 2em;
 }
 
-
-.critforcevis-img {
-    width: 90%;
-}
-
-.climbdiscvis-img{
-    width: 90%;
-}
-
 .menu-bar{
-    margin-bottom: 1px;
-}
-
-.menu-bar i{
-    visibility: hidden;
+    margin-bottom: 0px;
 }
 
 }
