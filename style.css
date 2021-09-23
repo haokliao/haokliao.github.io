@@ -8,7 +8,7 @@ body {
     border-width: 2px;
     border-radius: 7px;
     border-color: #0453E3;
-    box-shadow: 0 0 0 2px white;
+    box-shadow: 8px 6px 1px #1F6DFB;
     background-color: #FBFAFA
 }
 
@@ -66,7 +66,7 @@ body {
     border-width: 2px;
     border-radius: 10px;
     border-color: #0453E3;
-    box-shadow: 0 0 0 2px white;
+    box-shadow: 15px 5px 5px #1F6DFB;
 }
 
 .headshot{
@@ -185,6 +185,7 @@ td{
     background-color: #f1f1f1;
     text-align: center;
     background: #efefef;
+    
 }
 .slices-img{
     border-radius: 50%;
