@@ -160,8 +160,7 @@ td{
 
 .big-txt{
   font-family: 'Press Start 2P';
-  font-size: 20px;
-  padding-top: 1em
+  font-size: 18px;
 }
 
 .small-txt{
@@ -180,7 +179,7 @@ td{
 }
 .slices-img{
   border-radius: 50%;
-  padding-bottom: em;
+  /* padding-bottom: em; */
 }
 
 
