@@ -180,11 +180,11 @@ td{
 }
 
 /*projects-web development*/
-.web-proj-1{
+.web-project-1{
   grid-area: web-project-1;
 }
 
-.web-proj-2{
+.web-project-2{
   grid-area: web-project-2;
 
 }
@@ -219,7 +219,6 @@ td{
   'socials socials '
   'web-project-1 web-project-1'
   'web-project-2 web-project-2'
-
   'data-project-1 data-project-1'
   'data-project-2 data-project-2';
 }
