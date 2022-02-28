@@ -15,9 +15,10 @@ Currently working on creating a little JS to show my Spotify most recent favs?
 ### To Do:
 
 
-- [ ] Create a small little one liner of what I've been listening to on spotify (a whole JOURNEY through spotify API so far)
-- [ ] Get API tokens for requesting song 
-- [ ] Write some JS
-- [ ] Env file for tokens
-- [ ] Add lines into HTML
+- [x] Create a small little one liner of what I've been listening to on spotify (a whole JOURNEY through spotify API so far)
+- [x] Get API tokens for requesting song 
+- [x] Write some JS
+- [x] Env file for tokens
+- [x] Add lines into HTML
 
+Done at haokai.dev!
